@@ -22,7 +22,7 @@ public class Send {
 		String message = "Hello World!!";
 		channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
 		System.out.println(" [x] Sent '"+message + "'");
-		
+		//Me la peleishon (notese el dominio del ingles)
 		//cerramos la coneccion y el canal
 		
 		channel.close();
