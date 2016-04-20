@@ -22,6 +22,7 @@ public class Send {
 		String message = "Hello World!!";
 		channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
 		System.out.println(" [x] Sent '"+message + "'");
+		//holo 2
 		
 		//holo
 		
